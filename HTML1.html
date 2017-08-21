@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        window.onload = function () {
+            var otext1 = document.getElementById('text1');
+            var otext2 = document.getElementById('text2');
+            var obtn = document.getElementById('btn1');
+
+            obtn.onclick = function () {
+                alert(parseInt(otext1.value) + parseInt(otext2.value));
+            }
+        }
+    </script>
+</head>
+<body>
+
+<input id="text1" type = "text" />
+<input id="text2" type="text"/>
+<button id="btn1" type="button"> 求和</button>
+
+</body>
+</html>
